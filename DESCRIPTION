@@ -1,0 +1,10 @@
+Package: miRQPCRnorm
+Title: Global fit normalization for miRNA Ct values from qPCR experiments
+Version: 1.0.0
+Authors: Chen Wang, Yihua Liu, OhKyu Yoon
+Description: Conduct normalization for miRNA qPCR Ct values by fitting cumulative distribution curve of un-detected miRNA count versus against Ct values with a sigmoid function.
+License: `use_mit_license()`
+Encoding: UTF-8
+Imports: minpack.lm
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
